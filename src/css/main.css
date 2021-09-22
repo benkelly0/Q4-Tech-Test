@@ -60,13 +60,9 @@
 
 /* Begin styling the report items here! */
 .reports {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  /* -ms-flex: 0 0 auto; */
 }
 
 img.reports_cover{
